@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/username/node-ci-cd.git'
+                git branch: 'main', url: 'https://github.com/rickytrib/Praktikum-PPMPL-8.git'
             }
         }
         stage('Install Dependencies') {
