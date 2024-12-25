@@ -39,7 +39,7 @@ pipeline {
         }
         stage('Run Unit Tests') {
             steps {
-                bat 'npm test'
+                bat 'npm test:unit'
             }
             post {
                 success {
